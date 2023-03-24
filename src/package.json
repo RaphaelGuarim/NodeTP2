@@ -4,6 +4,6 @@
     "description": "My project description",
     "scripts": {
       "tp1": "node ../../TP1/app.js",
-      "tp3": "node ../../TP3/TP-base/src/app.js"
+      "tp2": "node ./app.js"
     }
   }
