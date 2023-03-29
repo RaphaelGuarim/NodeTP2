@@ -3,6 +3,10 @@ module.exports = {
     "description": "Film de la base",
 	"type": "object",
     "properties" : {
+        "itemID" : {
+            "type" : "string",
+            "format" : "uuid"
+        },
         "title" : {
             "type" : "string"
         },
@@ -20,10 +24,6 @@ module.exports = {
         },
         "ImdbId" : {
             "type" : "string"
-        },
-        "itemID" : {
-            "type" : "string",
-            "format" : "uuid"
         }
     },
     "required": ["title", "year", "ImdbId"],

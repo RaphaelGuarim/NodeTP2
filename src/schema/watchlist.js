@@ -10,12 +10,12 @@ module.exports = {
                 "properties": {
                     "item_id": "number",
                     "statut": {
-                        "enum": ["à voir", "en cours", "terminé", "abandonné"]
+                        "enum": ["A voir", "En cours", "Terminé", "Abandonné"]
                     }
                 }
             }
         },
-        "propriétaire": {
+        "proprietaire": {
             "type": "string",
         },
         "watchlistID": {
@@ -26,6 +26,6 @@ module.exports = {
             "type" : "string"
         }
     },
-    "required": ["propriétaire", "libelle"],
-    "additionalProperties": false
+    "required": ["proprietaire", "libelle"],
+    "additionalProperties": true
 }
